@@ -3,6 +3,7 @@
     "name": "meu-lista-tarefas",
     "slug": "meu-lista-tarefas",
     "version": "1.0.0",
+    "scheme": "lista-tarefas",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

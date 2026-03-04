@@ -1,10 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Olá tropa</Text>
+      <Text>FATEC ID</Text>
+      <TextInput placeholder = "digite algo...."/>
+      <Pressable> 
+         <Text>aperte aqui</Text>
+      </Pressable>
       <StatusBar style="auto" />
     </View>
   );
